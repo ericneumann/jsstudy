@@ -3,15 +3,10 @@
   <head>
     <title>Learn Enough JavaScript</title>
     <meta charset="utf-8">
+    <script src="day.js"></script>
     <script>
-      const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
-                             "Thursday", "Friday", "Saturday"];
       let now = new Date();
-      let dayName = daysOfTheWeek[now.getDay()];
-      alert(`hello world! Happy ${dayName}!`);
-      let firstName = "Eric";
-      let lastName = "Neumann";
-      console.log(`Hello ${firstName} ${lastName}`);
+      alert(`${greeting(now, "yo yo yooowzaaah ")}`);
     </script>
   </head>
   <body>
